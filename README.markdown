@@ -20,9 +20,25 @@ While standalone, this is not terribly useful, in conjunction
 with other adapters, perhaps other ones in the CWAC collection,
 it has greater benefit.
 
-This is packaged as an Android library project, though a simple
-JAR is also available from the Downloads section of this
-GitHub repository.
+This Android library project is 
+[available as a JAR](https://github.com/commonsguy/cwac-sacklist/releases)
+or as an artifact for use with Gradle. To use that, add the following
+blocks to your `build.gradle` file:
+
+```groovy
+repositories {
+    maven {
+        url "https://repo.commonsware.com.s3.amazonaws.com"
+    }
+}
+
+dependencies {
+    compile 'com.commonsware.cwac:sacklist:1.0.0'
+}
+```
+
+Or, if you cannot use SSL, use `http://repo.commonsware.com` for the repository
+URL.
 
 Usage
 -----
@@ -72,8 +88,7 @@ None at present.
 
 Version
 -------
-This is version v0.4.0 of this module, meaning that its growth
-has slowed.
+This is version v1.0.0 of this module.
 
 Demo
 ----
@@ -100,6 +115,7 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
+- v1.0.0: migrated to Gradle and published AAR
 - v0.4.0: added `hasView()`
 - v0.3.1: fixed copy-and-paste error in build.xml
 - v0.3.0: converted to Android library project
