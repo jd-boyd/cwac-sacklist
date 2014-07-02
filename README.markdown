@@ -40,6 +40,8 @@ dependencies {
 Or, if you cannot use SSL, use `http://repo.commonsware.com` for the repository
 URL.
 
+**NOTE**: The JAR name, as of v1.0.1, has a `cwac-` prefix, to help distinguish it from other JARs.
+
 Usage
 -----
 You can use `SackOfViewsAdapter` directly or subclass it. The
@@ -92,7 +94,7 @@ that do not work on API Level 4 and are not noted as requiring a higher version.
 
 Version
 -------
-This is version v1.0.0 of this module.
+This is version v1.0.1 of this module.
 
 Demo
 ----
@@ -108,7 +110,8 @@ file.
 Questions
 ---------
 If you have questions regarding the use of this code, please post a question
-on [StackOverflow](http://stackoverflow.com/questions/ask) tagged with `commonsware` and `android`. Be sure to indicate
+on [StackOverflow](http://stackoverflow.com/questions/ask) tagged with
+`commonsware-cwac` and `android` after [searching to see if there already is an answer](https://stackoverflow.com/search?q=[commonsware-cwac]+sackofviewsadapter). Be sure to indicate
 what CWAC module you are having issues with, and be sure to include source code 
 and stack traces if you are encountering crashes.
 
@@ -119,6 +122,7 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
+- v1.0.1: updated Gradle files and manifest for compatibility, added `cwac-` prefix to JAR
 - v1.0.0: migrated to Gradle and published AAR
 - v0.4.0: added `hasView()`
 - v0.3.1: fixed copy-and-paste error in build.xml
