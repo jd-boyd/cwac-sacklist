@@ -94,7 +94,7 @@ that do not work on API Level 4 and are not noted as requiring a higher version.
 
 Version
 -------
-This is version v1.0.1 of this module.
+This is version v1.0.2 of this module.
 
 Demo
 ----
@@ -122,6 +122,7 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
+- v1.0.2: updated Gradle files for Android Studio 1.0 and new publishing system
 - v1.0.1: updated Gradle files and manifest for compatibility, added `cwac-` prefix to JAR
 - v1.0.0: migrated to Gradle and published AAR
 - v0.4.0: added `hasView()`
