@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.commonsware.cwac:sacklist:1.0.0'
+    compile 'com.commonsware.cwac:sacklist:1.0.3'
 }
 ```
 
@@ -94,7 +94,7 @@ that do not work on API Level 4 and are not noted as requiring a higher version.
 
 Version
 -------
-This is version v1.0.2 of this module.
+This is version v1.0.3 of this module.
 
 Demo
 ----
@@ -110,7 +110,7 @@ file.
 Questions
 ---------
 If you have questions regarding the use of this code, please post a question
-on [StackOverflow](http://stackoverflow.com/questions/ask) tagged with
+on [Stack Overflow](http://stackoverflow.com/questions/ask) tagged with
 `commonsware-cwac` and `android` after [searching to see if there already is an answer](https://stackoverflow.com/search?q=[commonsware-cwac]+sackofviewsadapter). Be sure to indicate
 what CWAC module you are having issues with, and be sure to include source code 
 and stack traces if you are encountering crashes.
@@ -121,10 +121,16 @@ The [contribution guidelines](CONTRIBUTING.md)
 provide some suggestions for how to create a bug report that will get
 the problem fixed the fastest.
 
-Do not ask for help via Twitter.
+You are also welcome to join
+[the CommonsWare Community](https://community.commonsware.com/)
+and post questions
+and ideas to [the CWAC category](https://community.commonsware.com/c/cwac).
+
+Do not ask for help via social media.
 
 Release Notes
 -------------
+- v1.0.3: reorganized project into Android Studio-standard structure
 - v1.0.2: updated Gradle files for Android Studio 1.0 and new publishing system
 - v1.0.1: updated Gradle files and manifest for compatibility, added `cwac-` prefix to JAR
 - v1.0.0: migrated to Gradle and published AAR
