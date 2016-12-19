@@ -84,6 +84,11 @@ selectable and which are not (e.g., header rows).
 You can call `hasView()` on a `SackOfViewsAdapter` to determine
 if it contains a certain `View` or not.
 
+### JavaDocs
+
+[JavaDocs are available](http://javadocs.commonsware.com/cwac/sacklist/index.html)
+for your JavaDocing pleasure.
+
 Dependencies
 ------------
 None at present.
