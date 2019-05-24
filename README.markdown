@@ -1,6 +1,8 @@
 CWAC SackOfViewsAdapter: Just the Views, Only the Views
 =======================================================
 
+NOTE: This project has been discontinued. This repository will be made private on 1 June 2020.
+
 `ListView` in Android supports header and footer views -- views
 that do not belong to the underlying adapter but otherwise
 show up in the list and scroll along with the contents.
